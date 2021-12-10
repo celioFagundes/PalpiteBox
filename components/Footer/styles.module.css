@@ -1,0 +1,12 @@
+.wrapper{
+    @apply bg-gray-700 p-4
+}
+.box{
+    @apply container mx-auto text-center text-white font-semibold
+}
+.box_images{
+    @apply  mt-3
+}
+.image{
+    @apply inline px-4 w-40
+}

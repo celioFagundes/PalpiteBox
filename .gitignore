@@ -1,0 +1,4 @@
+.next
+credentials.json
+.env.local
+node_modules

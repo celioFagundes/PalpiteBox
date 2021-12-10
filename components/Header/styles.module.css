@@ -1,0 +1,12 @@
+.wrapper {
+  @apply bg-gray-200 p-4 shadow-2xl;
+}
+.imgBox {
+  @apply container mx-auto;
+}
+.links_container {
+  @apply bg-gray-100 p-2 shadow-sm z-0 text-center;
+}
+.link{
+    @apply px-4 font-semibold hover:underline
+}
