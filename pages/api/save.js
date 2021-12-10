@@ -39,7 +39,8 @@ export default async (req, res) => {
       Cupom,
       Promo,
       Data: moment().format('DD/MM/YYYY  HH:mm:ss'),
-      Nota: parseInt(data.Nota)
+      Nota: parseInt(data.Nota),
+      Recomendaria: data.Recomendaria
     });
     res.end(JSON.stringify({
       showCupom: Cupom !== '',
