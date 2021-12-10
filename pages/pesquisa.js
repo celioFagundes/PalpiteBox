@@ -77,7 +77,6 @@ const Pesquisa = () => {
                 type='text'
                 name='Nome'
                 {...register('Nome')}
-                placeholder='Obrigatório'
               />
               {errors?.Nome && <p className='italic text-yellow-200 text-sm'>{errors.Nome.message}</p>}
             </div>
