@@ -3,6 +3,7 @@ import { IoLogoWhatsapp, IoLogoFacebook } from 'react-icons/io';
 import { MdEmail } from 'react-icons/md';
 import Footer from '../Footer';
 
+const tel ='999999999'
 const Layout = ({ children }) => {
   return (
     <div className='flex flex-col justify-between items-center min-h-screen bg-primary	 text-white'>
@@ -23,7 +24,7 @@ const Layout = ({ children }) => {
             <div className='grid grid-cols-1'>
               <div className='flex items-center'>
                 <IoLogoWhatsapp color='#67C15E' size={22} />
-                <a href='' target='_blank' className='font-semibold my-2 ml-1'>
+                <a href={`https://api.whatsapp.com/send?phone=${tel}&text=Teste%20de%20Mensagem` }target='_blank' className='font-semibold my-2 ml-1'>
                   Whatsapp: (51) 9 9999-9999
                 </a>
               </div>
